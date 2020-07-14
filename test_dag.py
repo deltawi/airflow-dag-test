@@ -102,6 +102,7 @@ with models.DAG(
 	                          task_id="task1",
 	                          #affinity=affinity,
 	                          is_delete_operator_pod=True,
+				  get_logs=True,
 	                          #hostnetwork=False,
 	                          #tolerations=tolerations,
 	                          #configmaps=configmaps
@@ -120,6 +121,7 @@ with models.DAG(
 	                          task_id="task2",
 	                          #affinity=affinity,
 	                          is_delete_operator_pod=True,
+				  get_logs=True,
 	                          #hostnetwork=False,
 	                          #tolerations=tolerations,
 	                          #configmaps=configmaps
@@ -138,6 +140,7 @@ with models.DAG(
 	                          task_id="task3",
 	                          #affinity=affinity,
 	                          is_delete_operator_pod=True,
+				  get_logs=True,
 	                          #hostnetwork=False,
 	                          #tolerations=tolerations,
 	                          #configmaps=configmaps
@@ -157,6 +160,7 @@ with models.DAG(
 	                          task_id="task4",
 	                          #affinity=affinity,
 	                          is_delete_operator_pod=True,
+				  get_logs=True,
 	                          #hostnetwork=False,
 	                          #tolerations=tolerations,
 	                          #configmaps=configmaps
